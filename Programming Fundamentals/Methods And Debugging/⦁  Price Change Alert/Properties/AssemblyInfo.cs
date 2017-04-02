@@ -1,14 +1,15 @@
 ﻿using System.Reflection;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("1. Declaring and Invoking Methods")]
+[assembly: AssemblyTitle("⦁  Price Change Alert")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("1. Declaring and Invoking Methods")]
+[assembly: AssemblyProduct("⦁  Price Change Alert")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("798f4b9c-6db5-4bff-87e2-36f656b71ebf")]
+[assembly: Guid("68d76f15-89e2-4ea3-aab9-fad560a9275a")]
 
 // Version information for an assembly consists of the following four values:
 //

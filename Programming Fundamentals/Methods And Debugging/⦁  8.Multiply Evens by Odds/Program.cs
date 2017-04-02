@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ___8.Debugging_and_Program_Flow
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             var n = int.Parse(Console.ReadLine());
             Console.WriteLine(EvenAndOdds(n));
@@ -16,9 +12,9 @@ namespace ___8.Debugging_and_Program_Flow
         }
         static int EvenAndOdds(int n)
         {
-            int SumOfEven = Even(n);
+            int sumOfEven = Even(n);
             int sumOfOdd = Odd(n);
-            return SumOfEven * sumOfOdd;
+            return sumOfEven * sumOfOdd;
         }
         static int Odd(int n)
         {

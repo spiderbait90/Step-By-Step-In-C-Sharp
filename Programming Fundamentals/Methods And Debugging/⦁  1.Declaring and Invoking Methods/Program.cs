@@ -1,32 +1,28 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _1.Declaring_and_Invoking_Methods
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            total();
+            Total();
         }
-        static void total()
+        static void Total()
         {
-            top();mid();bot();
+            Top();Mid();Bot();
         }
-        static void top()
+        static void Top()
         {
             Console.WriteLine("CASH RECEIPT");
             Console.WriteLine("------------------------------");
         }
-        static void mid()
+        static void Mid()
         {
             Console.WriteLine("Charged to____________________");
             Console.WriteLine("Received by___________________");
         }
-        static void bot()
+        static void Bot()
         {
             Console.WriteLine("------------------------------");
             Console.WriteLine("\u00A9 SoftUni");

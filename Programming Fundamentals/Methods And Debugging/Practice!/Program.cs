@@ -1,27 +1,12 @@
 ﻿using System;
-using System.Globalization;
 
-class HolidaysBetweenTwoDates
+namespace Practice_
 {
-    static void Main()
+    public class PriceChangeAlert
     {
-        var startDate = DateTime.ParseExact(Console.ReadLine(),
-            "d.MM.yyyy", CultureInfo.InvariantCulture);
-
-        var endDate = DateTime.ParseExact(Console.ReadLine(),
-            "d.MM.yyyy", CultureInfo.InvariantCulture);
-
-        var holidaysCount = 0;
-
-        for (var date = startDate; date <= endDate; date = date.AddDays(1))
+        public static void Main()
         {
-            if (date.DayOfWeek == DayOfWeek.Saturday ||
-                date.DayOfWeek == DayOfWeek.Sunday)
-                holidaysCount++;
-            
-        }
 
-        Console.WriteLine(holidaysCount);
-        
+        }
     }
 }

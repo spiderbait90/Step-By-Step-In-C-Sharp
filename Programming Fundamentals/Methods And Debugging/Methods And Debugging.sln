@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "⦁ 1. Declaring and Invoking Methods", "1. Declaring and Invoking Methods\⦁ 1. Declaring and Invoking Methods.csproj", "{798F4B9C-6DB5-4BFF-87E2-36F656B71EBF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "⦁  1.Declaring and Invoking Methods", "⦁  1.Declaring and Invoking Methods\⦁  1.Declaring and Invoking Methods.csproj", "{798F4B9C-6DB5-4BFF-87E2-36F656B71EBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "⦁ 2.Sign of Integer Number", "2.Sign of Integer Number\⦁ 2.Sign of Integer Number.csproj", "{CFA89E84-5D89-4752-9E80-26499BF3CBAC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "⦁  2.Sign of Integer Number", "⦁  2.Sign of Integer Number\⦁  2.Sign of Integer Number.csproj", "{CFA89E84-5D89-4752-9E80-26499BF3CBAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "⦁ 3.Printing Triangle", "⦁ 3.Printing Triangle\⦁ 3.Printing Triangle.csproj", "{4F00DD7E-CB4D-4642-A798-982519F307C7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "⦁  3.Printing Triangle", "⦁  3.Printing Triangle\⦁  3.Printing Triangle.csproj", "{4F00DD7E-CB4D-4642-A798-982519F307C7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "⦁  4.Draw a Filled Square", "⦁  4.Draw a Filled Square\⦁  4.Draw a Filled Square.csproj", "{262E78CF-2782-4C92-AF3F-22E6E198AAD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "⦁ 5.Calculate Triangle Area", "⦁ 5.Calculate Triangle Area\⦁ 5.Calculate Triangle Area.csproj", "{02533798-6055-43C8-9681-0A8511B489AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "⦁ 5.Calculate Triangle Area", "⦁  5.Calculate Triangle Area\⦁ 5.Calculate Triangle Area.csproj", "{02533798-6055-43C8-9681-0A8511B489AE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "⦁  6.Math Power", "⦁  6.Math Power\⦁  6.Math Power.csproj", "{6AF7975C-E1A6-40D3-ADC0-58B1A55A845A}"
 EndProject
@@ -19,9 +19,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "⦁  7.Greater of Two Value
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice!", "Practice!\Practice!.csproj", "{5D2FE0BB-8D4C-4516-85B4-BAC087D50E38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "My", "My\My.csproj", "{D5A0C64C-A5F1-4F6B-98B4-FA2B721796A2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "⦁  8.Multiply Evens by Odds", "⦁  8.Multiply Evens by Odds\⦁  8.Multiply Evens by Odds.csproj", "{041DB60C-7F8D-4197-95C8-698B125817F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "⦁  8.Multiply Evens by Odds", "⦁  8.Debugging and Program Flow\⦁  8.Multiply Evens by Odds.csproj", "{041DB60C-7F8D-4197-95C8-698B125817F5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "⦁  9.Holidays Between Two Dates", "⦁  Price Change Alert\⦁  9.Holidays Between Two Dates.csproj", "{68D76F15-89E2-4EA3-AAB9-FAD560A9275A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,14 +61,14 @@ Global
 		{5D2FE0BB-8D4C-4516-85B4-BAC087D50E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D2FE0BB-8D4C-4516-85B4-BAC087D50E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D2FE0BB-8D4C-4516-85B4-BAC087D50E38}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D5A0C64C-A5F1-4F6B-98B4-FA2B721796A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D5A0C64C-A5F1-4F6B-98B4-FA2B721796A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D5A0C64C-A5F1-4F6B-98B4-FA2B721796A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D5A0C64C-A5F1-4F6B-98B4-FA2B721796A2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{041DB60C-7F8D-4197-95C8-698B125817F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{041DB60C-7F8D-4197-95C8-698B125817F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{041DB60C-7F8D-4197-95C8-698B125817F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{041DB60C-7F8D-4197-95C8-698B125817F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68D76F15-89E2-4EA3-AAB9-FAD560A9275A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68D76F15-89E2-4EA3-AAB9-FAD560A9275A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68D76F15-89E2-4EA3-AAB9-FAD560A9275A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68D76F15-89E2-4EA3-AAB9-FAD560A9275A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
