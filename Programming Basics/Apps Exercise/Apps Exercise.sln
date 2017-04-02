@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Графично приложение „Суматор за числа“", "..\1.First steps in coding\7. Графично приложение „Суматор за числа“\1. Графично приложение „Суматор за числа“.csproj", "{27088934-B430-4077-9B94-487D42DBAC7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Уеб приложение „Суматор за числа“", "..\1.First steps in coding\8. Уеб приложение „Суматор за числа“\2. Уеб приложение „Суматор за числа“.csproj", "{B7A7EACA-8D9D-41E1-850B-EF02C5C6193B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice", "WindowsFormsApplication1\Practice.csproj", "{A7606583-A879-4103-9272-0C8827539FA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27088934-B430-4077-9B94-487D42DBAC7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27088934-B430-4077-9B94-487D42DBAC7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27088934-B430-4077-9B94-487D42DBAC7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27088934-B430-4077-9B94-487D42DBAC7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7A7EACA-8D9D-41E1-850B-EF02C5C6193B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7A7EACA-8D9D-41E1-850B-EF02C5C6193B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7A7EACA-8D9D-41E1-850B-EF02C5C6193B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7A7EACA-8D9D-41E1-850B-EF02C5C6193B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7606583-A879-4103-9272-0C8827539FA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7606583-A879-4103-9272-0C8827539FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7606583-A879-4103-9272-0C8827539FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7606583-A879-4103-9272-0C8827539FA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
