@@ -21,8 +21,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice!", "Practice!\Prac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "⦁  8.Multiply Evens by Odds", "⦁  8.Multiply Evens by Odds\⦁  8.Multiply Evens by Odds.csproj", "{041DB60C-7F8D-4197-95C8-698B125817F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "⦁  9.Holidays Between Two Dates", "⦁  Price Change Alert\⦁  9.Holidays Between Two Dates.csproj", "{68D76F15-89E2-4EA3-AAB9-FAD560A9275A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,10 +63,6 @@ Global
 		{041DB60C-7F8D-4197-95C8-698B125817F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{041DB60C-7F8D-4197-95C8-698B125817F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{041DB60C-7F8D-4197-95C8-698B125817F5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{68D76F15-89E2-4EA3-AAB9-FAD560A9275A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{68D76F15-89E2-4EA3-AAB9-FAD560A9275A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{68D76F15-89E2-4EA3-AAB9-FAD560A9275A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{68D76F15-89E2-4EA3-AAB9-FAD560A9275A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
