@@ -11,17 +11,18 @@ namespace _02.Reverse_Array_of_Integers
         static void Main(string[] args)
         {
             var n = int.Parse(Console.ReadLine());
-            int[] numbers = new int[n];
+            var numbers = new string[n];
 
             for (int i = 0; i < n; i++)
             {
-                var number = int.Parse(Console.ReadLine());
-                numbers[i] = number;
+                numbers[i] = Console.ReadLine();
+                
             }
             for (int i = n-1; i >= 0; i--)
             {
                 Console.WriteLine(numbers[i]);
             }
+            
             
         }
     }
