@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E8A756D6-5166-4824-8B6E-842E3E29F18F}</ProjectGuid>
+    <ProjectGuid>{16D84845-8A57-4332-B135-D8EDC54BD503}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_01.Reverse_String</RootNamespace>
-    <AssemblyName>_01.Reverse_String</AssemblyName>
+    <RootNamespace>ConsoleApp1</RootNamespace>
+    <AssemblyName>ConsoleApp1</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
