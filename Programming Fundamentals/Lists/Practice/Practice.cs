@@ -4,11 +4,11 @@ using System.Linq;
 
 namespace Practice_a
 {
-   public class Practice
+    public class Practice
     {
         public static void Main(string[] args)
-        {
-          
+        { 
+
         }
     }
 }
