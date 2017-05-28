@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.0
+VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "⦁  1.Declaring and Invoking Methods", "⦁  1.Declaring and Invoking Methods\⦁  1.Declaring and Invoking Methods.csproj", "{798F4B9C-6DB5-4BFF-87E2-36F656B71EBF}"
 EndProject
@@ -64,6 +64,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Debugging Exercise", "03. Debugging Exercise\03. Debugging Exercise.csproj", "{517020E3-725B-49B0-A69D-A57749DF2B9E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Debugging Exercise", "04. Debugging Exercise\04. Debugging Exercise.csproj", "{D456F3CC-89F4-4152-B1CE-133E5CDD1188}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Blank Receipt", "01. Blank Receipt\01. Blank Receipt.csproj", "{B0CFCC90-1E93-412F-BF21-3CB1FC1CF51B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -195,6 +197,10 @@ Global
 		{D456F3CC-89F4-4152-B1CE-133E5CDD1188}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D456F3CC-89F4-4152-B1CE-133E5CDD1188}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D456F3CC-89F4-4152-B1CE-133E5CDD1188}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0CFCC90-1E93-412F-BF21-3CB1FC1CF51B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0CFCC90-1E93-412F-BF21-3CB1FC1CF51B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0CFCC90-1E93-412F-BF21-3CB1FC1CF51B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0CFCC90-1E93-412F-BF21-3CB1FC1CF51B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

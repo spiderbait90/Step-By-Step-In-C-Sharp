@@ -75,6 +75,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice!", "Practice!\Prac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "⦁ Cypher Roulette", "⦁ Cypher Roulette\⦁ Cypher Roulette.csproj", "{45D052B5-3D84-4121-98FE-95141CB73D05}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Triples of Letters", "06. Triples of Letters\06. Triples of Letters.csproj", "{172295C3-6E98-4F9A-AF9B-8ADD09A4D045}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -217,6 +219,10 @@ Global
 		{45D052B5-3D84-4121-98FE-95141CB73D05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45D052B5-3D84-4121-98FE-95141CB73D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45D052B5-3D84-4121-98FE-95141CB73D05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{172295C3-6E98-4F9A-AF9B-8ADD09A4D045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{172295C3-6E98-4F9A-AF9B-8ADD09A4D045}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{172295C3-6E98-4F9A-AF9B-8ADD09A4D045}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{172295C3-6E98-4F9A-AF9B-8ADD09A4D045}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
