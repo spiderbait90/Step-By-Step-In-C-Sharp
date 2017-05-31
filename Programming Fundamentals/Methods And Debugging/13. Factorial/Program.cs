@@ -7,24 +7,26 @@ namespace _13.Factorial
     {
         static void Main(string[] args)
         {
-            var n = long.Parse(Console.ReadLine());
+            var n = BigInteger.Parse(Console.ReadLine());
 
-            BigInteger fact = 1;
+            BigInteger result = 1;
             for (int i = 1; i <= n; i++)
             {
-                fact *= i;
+                result *= i;
             }
-            BigInteger zero = 0;
-            var count = 0;
-            while(zero==0)
+
+            var countZero = 0;
+
+            while (true)
             {
-                zero = fact % 10;
-                fact /= 10;
-                if (zero == 0)
-                    count++;
+                var digit = result % 10;
+                if (digit == 0)
+                    countZero++;
+                else
+                    break;
+                result /= 10;
             }
-            Console.WriteLine(count);
-        }
-        static BigInteger
+            Console.WriteLine(countZero);
+        }        
     }
 }
