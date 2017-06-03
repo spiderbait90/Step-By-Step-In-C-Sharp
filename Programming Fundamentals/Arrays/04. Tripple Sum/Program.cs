@@ -7,29 +7,23 @@ namespace _04.Tripple_Sum
     {
         static void Main(string[] args)
         {
-            var numbers = Console.ReadLine()
-                .Split(' ')
-                .Select(int.Parse)
-                .ToArray();
-            var counter = 0;
-            for (int i = 0; i < numbers.Length; i++)
-            {                
-                for (int i2 = i + 1; i2 < numbers.Length; i2++)
+            var numbers = Console.ReadLine().Split(' ')
+                .Select(int.Parse).ToArray();
+            var check = false;
+            for (int a = 0; a < numbers.Length; a++)
+            {
+                for (int b = a + 1; b < numbers.Length; b++)
                 {
-                    for (int i3 = 0; i3 < numbers.Length; i3++)
+                    if (numbers.Contains(numbers[a] + numbers[b]))
                     {
-                        if (numbers[i] + numbers[i2] == numbers[i3])
-                        {
-                            Console.WriteLine($"{numbers[i]} + {numbers[i2]} == {numbers[i3]}");
-                            counter++;
-                        }
-                    }                        
+                        Console.WriteLine($"{numbers[a]} + {numbers[b]} == " +
+                        $"{numbers[a] + numbers[b]}");
+                        check = true;
+                    }
                 }
             }
-            if (counter==0)
-            {
+            if (!check)
                 Console.WriteLine("No");
-            }
         }
     }
 }

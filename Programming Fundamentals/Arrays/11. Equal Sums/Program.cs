@@ -10,39 +10,30 @@ namespace _11.Equal_Sums
     {
         static void Main(string[] args)
         {
-            var numbers = Console.ReadLine()
-                .Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
-                .Select(int.Parse)
-                .ToArray();
-            int leftSum = 0;
-            int rightSum = 0;
-            for (int left = 0; left < numbers.Length - 2; left++)
+            var numbers = Console.ReadLine().Split()
+                           .Select(int.Parse).ToArray();
+
+            var index = -1;
+            for (int a = 0; a < numbers.Length; a++)
             {
-                leftSum += numbers[left];
-                for (int right = left + 2; right < numbers.Length; right++)
+                var rightSum = 0;
+                for (int right = a + 1; right < numbers.Length; right++)
                 {
-                    if (left == 0)
-                        rightSum += numbers[right];
-                    else
-                    {
-                        rightSum -= numbers[left + 1];
-                        break;
-                    }
+                    rightSum += numbers[right];
+                }
+                var leftSum = 0;
+                for (int left = a - 1; left >= 0; left--)
+                {
+                    leftSum += numbers[left];
                 }
                 if (leftSum == rightSum)
-                {
-                    Console.WriteLine(left + 1);
-                    return;
-                }
+                    index = a;
+
             }
-            if (numbers.Length == 1)
-            {
-                Console.WriteLine(0);
-            }
-            else
-            {
+            if (index == -1)
                 Console.WriteLine("no");
-            }
+            else
+                Console.WriteLine(index);
         }
     }
 }

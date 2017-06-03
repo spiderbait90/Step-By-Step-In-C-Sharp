@@ -20,7 +20,6 @@ namespace _08.Condense_Array_to_Number
                 for (int i = 0; i < count; i++)
                 {
                     cond[i] = numbers[i] + numbers[i + 1];
-
                 }
                 numbers = cond;
                 count--;

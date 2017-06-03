@@ -10,69 +10,31 @@ namespace Practice
     {
         static void Main(string[] args)
         {
-            var text1 = Console.ReadLine().Split(' ').ToArray();
-            var text2 = Console.ReadLine().Split(' ').ToArray();
-            long result;
-            if (LeftToRight(text1, text2) >= RightToLeft(text1, text2))
-                result = LeftToRight(text1, text2);
-            else
-                result = RightToLeft(text1, text2);
-            Console.WriteLine(result);
-
-
-        }
-        static long LeftToRight(string[] text1, string[] text2)
-        {
-            var smallest = Math.Min(text1.Length, text2.Length);
+            var arr1 = Console.ReadLine().Split();
+            var arr2 = Console.ReadLine().Split();
             var count = 0;
-            var max = 0;
-            for (int i = 0; i < smallest; i++)
+            int[] min = new int[Math.Min(arr1.Length, arr2.Length)];
+            int[] max = new int[Math.Max(arr1.Length, arr2.Length)];
+            for (int i = 0; i < min.Length; i++)
             {
-                if (text1[i] == text2[i])
-                {
+                if (arr1[i] == arr2[i])
                     count++;
-                    if (count > max)
-                        max = count;
+            }
+            var count2 = 0;
+            for (int i = min.Length - 1; i >= 0; i--)
+            {
+                if (arr1.Length == max.Length)
+                {
+                    if (arr1[i + (arr1.Length - arr2.Length)] == arr2[i])
+                        count2++;
                 }
                 else
-                    break;
-            }
-            return max;
-        }
-        static long RightToLeft(string[] text1, string[] text2)
-        {
-            var smallest = Math.Min(text1.Length, text2.Length);
-            var bigger = Math.Max(text1.Length, text2.Length);
-            var count = 0;
-            var max = 0;
-            for (int i = smallest - 1; i >= 0; i--)
-            {
-                if (text1.Length >= text2.Length)
                 {
-                    if (text1[(bigger - 1)] == text2[i])
-                    {
-                        count++;
-                        if (count > max)
-                            max = count;
-                    }
-                    else
-                        break;
+                    if (arr2[i + (arr2.Length - arr1.Length)] == arr1[i])
+                        count2++;
                 }
-                else if (text1.Length < text2.Length)
-                {
-                    if (text1[i] == text2[bigger - 1])
-                    {
-                        count++;
-                        if (count > max)
-                            max = count;
-                    }
-                    else
-                        break;
-                }
-                bigger--;
             }
-            return max;
+            Console.WriteLine(Math.Max(count, count2));
         }
-
     }
 }

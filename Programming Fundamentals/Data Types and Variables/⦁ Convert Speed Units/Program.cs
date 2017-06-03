@@ -20,14 +20,10 @@ namespace __Convert_Speed_Units
             float speedKm = meter / 1000;
             speedKm /= hours;
             float milesPH = meter / 1609;
-            milesPH /= hours;
-            
+            milesPH /= hours;            
 
             Console.WriteLine($"{speedMs}\n{speedKm}\n{milesPH}");
-
-
-
-
+            
         }
     }
 }

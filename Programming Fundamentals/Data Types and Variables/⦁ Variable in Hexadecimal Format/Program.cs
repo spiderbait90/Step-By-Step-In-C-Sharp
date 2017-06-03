@@ -16,10 +16,6 @@ namespace __Variable_in_Hexadecimal_Format
                 Console.WriteLine("Yes");
             else 
                 Console.WriteLine("No");
-
-
-
-
         }
     }
 }

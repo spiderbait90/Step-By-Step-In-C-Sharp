@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.0
+VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Day of Week", "01. Day of Week\01. Day of Week.csproj", "{DF0B8CA9-50BF-455D-A25A-C98B7E1AEF1F}"
 EndProject
@@ -78,6 +78,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Pairs by Difference", "10. Pairs by Difference\10. Pairs by Difference.csproj", "{943A4726-B07D-4A32-9582-264B92793C73}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Equal Sums", "11. Equal Sums\11. Equal Sums.csproj", "{D6513D81-9B05-46DE-86BD-3956133BF514}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Last K Numbers Sum", "03. Last K Numbers Sum\03. Last K Numbers Sum.csproj", "{3C49785C-DF31-4358-9F84-16DF1C1E131D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Sieve of Eratosthenes", "04. Sieve of Eratosthenes\04. Sieve of Eratosthenes.csproj", "{10D0FCC0-CBB6-47FD-A256-76091F45BF29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Max Sequence of Equal num", "06. Max Sequence of Equal num\06. Max Sequence of Equal num.csproj", "{29246EA4-586A-459C-B9D8-2FE282D0C427}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Max Sequence of Increasing", "07. Max Sequence of Increasing\07. Max Sequence of Increasing.csproj", "{5E55A4A3-965B-4A52-A8B6-A831B574C11F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -237,6 +245,22 @@ Global
 		{D6513D81-9B05-46DE-86BD-3956133BF514}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6513D81-9B05-46DE-86BD-3956133BF514}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6513D81-9B05-46DE-86BD-3956133BF514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C49785C-DF31-4358-9F84-16DF1C1E131D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C49785C-DF31-4358-9F84-16DF1C1E131D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C49785C-DF31-4358-9F84-16DF1C1E131D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C49785C-DF31-4358-9F84-16DF1C1E131D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10D0FCC0-CBB6-47FD-A256-76091F45BF29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10D0FCC0-CBB6-47FD-A256-76091F45BF29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10D0FCC0-CBB6-47FD-A256-76091F45BF29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10D0FCC0-CBB6-47FD-A256-76091F45BF29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29246EA4-586A-459C-B9D8-2FE282D0C427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29246EA4-586A-459C-B9D8-2FE282D0C427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29246EA4-586A-459C-B9D8-2FE282D0C427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29246EA4-586A-459C-B9D8-2FE282D0C427}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E55A4A3-965B-4A52-A8B6-A831B574C11F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E55A4A3-965B-4A52-A8B6-A831B574C11F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E55A4A3-965B-4A52-A8B6-A831B574C11F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E55A4A3-965B-4A52-A8B6-A831B574C11F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
