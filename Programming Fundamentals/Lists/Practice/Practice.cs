@@ -7,8 +7,8 @@ namespace Practice_a
     public class Practice
     {
         public static void Main(string[] args)
-        { 
-
+        {
+            
         }
     }
 }

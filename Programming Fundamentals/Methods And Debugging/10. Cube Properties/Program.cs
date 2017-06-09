@@ -10,8 +10,7 @@ namespace _10.Cube_Properties
             var str = Console.ReadLine();
 
             Console.WriteLine($"{Cube(str, cubeSide):f2}");           
-            
-            
+                        
         }
 
         static double Cube(string str,double side)

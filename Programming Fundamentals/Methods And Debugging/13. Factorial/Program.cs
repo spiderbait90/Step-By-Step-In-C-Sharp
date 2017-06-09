@@ -14,7 +14,11 @@ namespace _13.Factorial
             {
                 result *= i;
             }
+            NewMethod(result);
+        }
 
+        static void NewMethod(BigInteger result)
+        {
             var countZero = 0;
 
             while (true)
@@ -27,6 +31,7 @@ namespace _13.Factorial
                 result /= 10;
             }
             Console.WriteLine(countZero);
-        }        
+            
+        }
     }
 }

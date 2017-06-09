@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _02.Min_Method
+namespace _02.Max_Method
 {
     class Program
     {
@@ -13,11 +13,13 @@ namespace _02.Min_Method
             var num1 = int.Parse(Console.ReadLine());
             var num2 = int.Parse(Console.ReadLine());
             var num3 = int.Parse(Console.ReadLine());
-            var min = GetMin(num1, num2);
-            if (min < num3) Console.WriteLine(min);
-            else if (min > num3) Console.WriteLine(num3);
+            var min = GetMax(num1, num2);
+            if (min < num3)
+                Console.WriteLine(min);
+            else if (min > num3)
+                Console.WriteLine(num3);
         }
-        public static int GetMin(int a,int b)
+        public static int GetMax(int a,int b)
         {            
             if (a<b)
             {

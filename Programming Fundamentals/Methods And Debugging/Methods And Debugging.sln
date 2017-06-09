@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "⦁  1.Declaring and Invoking Methods", "⦁  1.Declaring and Invoking Methods\⦁  1.Declaring and Invoking Methods.csproj", "{798F4B9C-6DB5-4BFF-87E2-36F656B71EBF}"
 EndProject
@@ -20,8 +20,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "⦁  8.Multiply Evens by Odds", "⦁  8.Multiply Evens by Odds\⦁  8.Multiply Evens by Odds.csproj", "{041DB60C-7F8D-4197-95C8-698B125817F5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Hello, Name!", "01. Hello, Name!\01. Hello, Name!.csproj", "{F1AF1245-441C-4B39-AADC-BFAC07099D6F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Min Method", "02. Min Method\02. Min Method.csproj", "{F6186F18-2307-41F8-972E-599463CE0BA9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. String Repeater", "03. String Repeater\03. String Repeater.csproj", "{705A0103-106B-4D0B-8E30-7320CE668BBD}"
 EndProject
@@ -79,6 +77,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Numbers in Reverse", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17. Be Positive", "17. Be Positive\17. Be Positive.csproj", "{3EAB6AFB-F33D-49B1-BBE0-0635DF0133B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Min Method", "02. Max Method\02. Min Method.csproj", "{F6186F18-2307-41F8-972E-599463CE0BA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -121,10 +121,6 @@ Global
 		{F1AF1245-441C-4B39-AADC-BFAC07099D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1AF1245-441C-4B39-AADC-BFAC07099D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1AF1245-441C-4B39-AADC-BFAC07099D6F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F6186F18-2307-41F8-972E-599463CE0BA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F6186F18-2307-41F8-972E-599463CE0BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F6186F18-2307-41F8-972E-599463CE0BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F6186F18-2307-41F8-972E-599463CE0BA9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{705A0103-106B-4D0B-8E30-7320CE668BBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{705A0103-106B-4D0B-8E30-7320CE668BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{705A0103-106B-4D0B-8E30-7320CE668BBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -237,6 +233,10 @@ Global
 		{3EAB6AFB-F33D-49B1-BBE0-0635DF0133B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EAB6AFB-F33D-49B1-BBE0-0635DF0133B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EAB6AFB-F33D-49B1-BBE0-0635DF0133B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6186F18-2307-41F8-972E-599463CE0BA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6186F18-2307-41F8-972E-599463CE0BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6186F18-2307-41F8-972E-599463CE0BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6186F18-2307-41F8-972E-599463CE0BA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

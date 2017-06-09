@@ -10,7 +10,7 @@ namespace _Practice
     {
         static void Main(string[] args)
         {
-           
+            
         }
     }
 }
