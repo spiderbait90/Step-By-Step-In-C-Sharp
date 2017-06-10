@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Day of Week", "01. Day of Week\01. Day of Week.csproj", "{8BA0950D-AB56-4B82-9915-5A6851E22B79}"
 EndProject
@@ -20,8 +20,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Animals", "03. Animals\03. Animals.csproj", "{1A89FFE7-5C6A-4119-81A7-B89A81F2D83A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Websites", "04. Websites\04. Websites.csproj", "{7A25DDA1-4F93-4558-866C-FB0A1F6546BB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Messages..Not DOne", "06. Messages\06. Messages..Not DOne.csproj", "{D1DA23F7-347B-4D2F-A5FF-9AB18756B14B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice", "Practice\Practice.csproj", "{E66BF48C-E0FE-4D0E-B289-32D596F62AAB}"
 EndProject
@@ -67,10 +65,6 @@ Global
 		{7A25DDA1-4F93-4558-866C-FB0A1F6546BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A25DDA1-4F93-4558-866C-FB0A1F6546BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A25DDA1-4F93-4558-866C-FB0A1F6546BB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D1DA23F7-347B-4D2F-A5FF-9AB18756B14B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D1DA23F7-347B-4D2F-A5FF-9AB18756B14B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D1DA23F7-347B-4D2F-A5FF-9AB18756B14B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D1DA23F7-347B-4D2F-A5FF-9AB18756B14B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E66BF48C-E0FE-4D0E-B289-32D596F62AAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E66BF48C-E0FE-4D0E-B289-32D596F62AAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E66BF48C-E0FE-4D0E-B289-32D596F62AAB}.Release|Any CPU.ActiveCfg = Release|Any CPU

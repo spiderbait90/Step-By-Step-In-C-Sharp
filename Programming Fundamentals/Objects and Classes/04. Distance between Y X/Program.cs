@@ -3,46 +3,39 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Globalization;
 
-namespace _04.Distance_between_Y_X
+
+namespace Practice
 {
+    public class Point
+    {
+        public double X { get; set; }
+        public double Y { get; set; }
+    }
     public class Program
     {
         public static void Main(string[] args)
         {
-            var p1 = ReadPoint();
-            var p2 = ReadPoint();
+            var p1 = new Point();
+            var p2 = new Point();
+            var firstPoint = Console.ReadLine().Split();
+            var secondPoint = Console.ReadLine().Split();
+            p1.X = double.Parse(firstPoint[0]);
+            p1.Y = double.Parse(firstPoint[1]);
+            p2.X = double.Parse(secondPoint[0]);
+            p2.Y = double.Parse(secondPoint[1]);
 
-            double distance = Calculate(p1, p2);
-
-            Console.WriteLine($"{distance:f3}");
-
+            var result = CalcDistance(p1, p2);
+            Console.WriteLine($"{result:f3}");
         }
 
-        public static double Calculate(Point p1, Point p2)
+        public static double CalcDistance(Point p1, Point p2)
         {
-            var xx = Math.Pow(p1.X - p2.X, 2);
-            var yy = Math.Pow(p1.Y - p2.Y, 2);
-
-            var result = Math.Sqrt(xx + yy);
-            return result;
-        }
-
-        public static Point ReadPoint()
-        {
-            var input = Console.ReadLine().Split(' ')
-                            .Select(double.Parse).ToArray();
-
-            var point = new Point();
-
-            point.X = input[0];
-            point.Y = input[1];
-            return point;
-        }
-        public class Point
-        {
-            public double X { get; set; }
-            public double Y { get; set; }
+            double a = p1.X - p2.X;
+            double b = p1.Y - p2.Y;
+            double c = Math.Sqrt(Math.Pow(a, 2) + Math.Pow(b, 2));
+            return c;
         }
     }
 }

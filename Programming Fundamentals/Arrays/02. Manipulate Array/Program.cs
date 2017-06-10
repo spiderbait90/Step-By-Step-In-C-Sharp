@@ -31,7 +31,7 @@ namespace _02.Manipulate_Array
                 }
             }
             Console.WriteLine(string.Join(", ",input));
-        }       
+        }  
 
         static string[] Reverse(string[] input)
         {
