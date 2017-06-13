@@ -36,17 +36,14 @@ namespace _01.Max_Sequence_of_Equal_elem
                     count = 1;
                 }
             }
-
             var result = new List<int>();
 
             for (int i = maxP; i < maxCount+maxP; i++)
             {
                 result.Add(list[i]);
             }
-
             Console.WriteLine(string.Join(" ",result));
-
-            
+                        
         }
     }
 }

@@ -3,87 +3,62 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Globalization;
 
-namespace _05.Closest_Two_Points
+namespace Practice
 {
-   public class Program
+    public class Point
     {
-        public class Point
+        public double X { get; set; }
+        public double Y { get; set; }
+    }
+    public class Program
+    {
+        public static void Main()
         {
-            public double X { get; set; }
-            public double Y { get; set; }
+            var n = int.Parse(Console.ReadLine());
+            var points = new List<Point>();
+            for (int i = 0; i < n; i++)
+            {
+                var currentPoint = new Point();
+                var XY = Console.ReadLine().Split();
+                currentPoint.X = double.Parse(XY.First());
+                currentPoint.Y = double.Parse(XY.Last());
+                points.Add(currentPoint);
+            }
+            var result = FindClosestPoints(points);
+            Console.WriteLine($"{result[0]:f3}");
+            Console.WriteLine($"({result[1]}, {result[2]})");
+            Console.WriteLine($"({result[3]}, {result[4]})");
         }
-        public static void Main(string[] args)
-        {
-            Point[] points = ReadPoints();
-            Point[] closestPoints = FindClosestTwoPoints(points);
-            PrintDistance(closestPoints);
-            printPoint(closestPoints[0]);
-            printPoint(closestPoints[1]);
-        }
-
-        private static void printPoint(Point point)
-        {
-            Console.WriteLine($"({point.X}, {point.Y})");
-        }
-
-        private static void PrintDistance(Point[] closestPoints)
-        {
-            double result = Calculate(closestPoints[0], closestPoints[1]);
-
-            Console.WriteLine($"{result:f3}");
-        }
-
-        private static Point[] FindClosestTwoPoints(Point[] points)
+        public static double[] FindClosestPoints(List<Point> points)
         {
             var minDistance = double.MaxValue;
-
-            Point[] closestPoints = null;
-
-            for (int p1 = 0; p1 < points.Length; p1++)
+            var resultPoints = new double[5];
+            for (int a = 0; a < points.Count; a++)
             {
-                for (int p2 = p1+1; p2 < points.Length; p2++)
+                for (int b = a + 1; b < points.Count; b++)
                 {
-                    double distance = Calculate(points[p1], points[p2]);
+                    var distance = CalcDistance(points[a], points[b]);
                     if (distance < minDistance)
                     {
                         minDistance = distance;
-                        closestPoints = new Point[] {points[p1],
-                        points[p2]};
+                        resultPoints[0] = minDistance;
+                        resultPoints[1] = points[a].X;
+                        resultPoints[2] = points[a].Y;
+                        resultPoints[3] = points[b].X;
+                        resultPoints[4] = points[b].Y;
                     }
-                }                
+                }
             }
-            return closestPoints;
+            return resultPoints;
         }
-
-        public static Point[] ReadPoints()
+        public static double CalcDistance(Point p1, Point p2)
         {
-            var n = int.Parse(Console.ReadLine());
-            Point[] points = new Point[n];
-            for (int i = 0; i < n; i++)
-            {
-                points[i] = ReadPoint();                
-            }
-            return points;
-        }
-        public static Point ReadPoint()
-        {
-            var input = Console.ReadLine().Split(' ')
-                            .Select(double.Parse).ToArray();
-
-            var point = new Point();
-
-            point.X = input[0];
-            point.Y = input[1];
-            return point;
-        }
-        public static double Calculate(Point p1, Point p2)
-        {
-            var xx = Math.Pow(p1.X - p2.X, 2);
-            var yy = Math.Pow(p1.Y - p2.Y, 2);
-
-            var result = Math.Sqrt(xx + yy);
-            return result;
+            double a = p1.X - p2.X;
+            double b = p1.Y - p2.Y;
+            double c = Math.Sqrt(Math.Pow(a, 2) + Math.Pow(b, 2));
+            return c;
         }
     }
 }
