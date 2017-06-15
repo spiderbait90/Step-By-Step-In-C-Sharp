@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Count Substrings", "02. Count Substrings\02. Count Substrings.csproj", "{43EFE9C4-8C4C-416C-9AD0-5DA263345D0B}"
 EndProject
@@ -22,6 +22,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Serialize String", "01. Serialize String\01. Serialize String.csproj", "{7EBBFFD3-3988-46A6-B2DE-C25E3A595C93}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Stateless", "02. Stateless\02. Stateless.csproj", "{8195160A-93EC-4AF9-8185-A6BD20C53AD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice", "Practice\Practice.csproj", "{9368FF5B-AFE2-4B4B-AAC0-7F38339C2D63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Convert from base10toN", "01. Convert from base10toN\01. Convert from base10toN.csproj", "{63D27D00-5E7E-43A0-AFC1-456B59CFCEE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Convert from baseNto10", "02. Convert from baseNto10\02. Convert from baseNto10.csproj", "{EE17CF3A-3BDF-4287-BA54-50BB8ADC362B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +75,18 @@ Global
 		{8195160A-93EC-4AF9-8185-A6BD20C53AD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8195160A-93EC-4AF9-8185-A6BD20C53AD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8195160A-93EC-4AF9-8185-A6BD20C53AD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9368FF5B-AFE2-4B4B-AAC0-7F38339C2D63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9368FF5B-AFE2-4B4B-AAC0-7F38339C2D63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9368FF5B-AFE2-4B4B-AAC0-7F38339C2D63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9368FF5B-AFE2-4B4B-AAC0-7F38339C2D63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63D27D00-5E7E-43A0-AFC1-456B59CFCEE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63D27D00-5E7E-43A0-AFC1-456B59CFCEE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63D27D00-5E7E-43A0-AFC1-456B59CFCEE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63D27D00-5E7E-43A0-AFC1-456B59CFCEE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE17CF3A-3BDF-4287-BA54-50BB8ADC362B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE17CF3A-3BDF-4287-BA54-50BB8ADC362B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE17CF3A-3BDF-4287-BA54-50BB8ADC362B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE17CF3A-3BDF-4287-BA54-50BB8ADC362B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
