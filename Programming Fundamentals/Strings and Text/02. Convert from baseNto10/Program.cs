@@ -11,18 +11,20 @@ namespace _01.Convert_from_base10toN
     {
         static void Main(string[] args)
         {
-            var input = Console.ReadLine()
-                .Split(' ')
-                .Select(BigInteger.Parse)
-                .ToArray();
+            string[] input = Console.ReadLine().Trim().Split();
+            int baseNNum = int.Parse(input[0]);
+            char[] baseTenNum = input[1].ToCharArray();
 
-            var n = input[0];
-            var num = input[1].ToString();
+            BigInteger result = new BigInteger(0);
 
-            for (int i = 0; i < num.Length; i++)
+            for (int i = 0; i < baseTenNum.Length; i++)
             {
-
+                int currentNum = (int)Char.GetNumericValue(baseTenNum[i]);
+                result += currentNum * BigInteger.Pow(baseNNum, baseTenNum.Length - i - 1);
             }
+
+            Console.WriteLine(result);
+            
         }
     }
 }

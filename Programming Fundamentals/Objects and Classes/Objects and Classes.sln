@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. MentorGroup", "08. Ment
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9. Teamwork projects", "9. Teamwork projects\9. Teamwork projects.csproj", "{0AF94DCE-C00E-41F2-B160-BA2047D160C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Student Groups", "10. Student Groups\10. Student Groups.csproj", "{ACFFFF3A-D3FA-4CB8-BC74-067662BAA925}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{0AF94DCE-C00E-41F2-B160-BA2047D160C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AF94DCE-C00E-41F2-B160-BA2047D160C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AF94DCE-C00E-41F2-B160-BA2047D160C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACFFFF3A-D3FA-4CB8-BC74-067662BAA925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACFFFF3A-D3FA-4CB8-BC74-067662BAA925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACFFFF3A-D3FA-4CB8-BC74-067662BAA925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACFFFF3A-D3FA-4CB8-BC74-067662BAA925}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

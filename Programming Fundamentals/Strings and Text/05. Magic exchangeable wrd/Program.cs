@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Practice
+namespace _05.Magic_exchangeable_wrd
 {
-    class Max_Sequence_of_Increasing_Elements
+    class Program
     {
         static void Main(string[] args)
         {
-            
+            var input = Console.ReadLine();
         }
     }
 }
