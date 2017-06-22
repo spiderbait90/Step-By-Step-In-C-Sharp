@@ -35,6 +35,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Character Multiplier", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Magic exchangeable wrd", "05. Magic exchangeable wrd\05. Magic exchangeable wrd.csproj", "{34483785-7B86-47C4-88DA-CB913975ACBA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Sum big numbers", "06. Sum big numbers\06. Sum big numbers.csproj", "{FA7B6E6A-8091-4B5E-8C2B-987844165135}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Multiply big number", "07. Multiply big number\07. Multiply big number.csproj", "{B456B63B-F76B-45CB-B415-8C1933BE9FF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Letters Change Numbers", "08. Letters Change Numbers\08. Letters Change Numbers.csproj", "{C8FF0D9B-CEC9-4837-9E8C-1145EE03F4D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Melrah Shake", "09. Melrah Shake\09. Melrah Shake.csproj", "{2C9B1A9C-F473-4B01-A067-AD01A3341FEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +113,22 @@ Global
 		{34483785-7B86-47C4-88DA-CB913975ACBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34483785-7B86-47C4-88DA-CB913975ACBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34483785-7B86-47C4-88DA-CB913975ACBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA7B6E6A-8091-4B5E-8C2B-987844165135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA7B6E6A-8091-4B5E-8C2B-987844165135}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA7B6E6A-8091-4B5E-8C2B-987844165135}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA7B6E6A-8091-4B5E-8C2B-987844165135}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B456B63B-F76B-45CB-B415-8C1933BE9FF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B456B63B-F76B-45CB-B415-8C1933BE9FF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B456B63B-F76B-45CB-B415-8C1933BE9FF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B456B63B-F76B-45CB-B415-8C1933BE9FF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8FF0D9B-CEC9-4837-9E8C-1145EE03F4D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8FF0D9B-CEC9-4837-9E8C-1145EE03F4D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8FF0D9B-CEC9-4837-9E8C-1145EE03F4D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8FF0D9B-CEC9-4837-9E8C-1145EE03F4D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C9B1A9C-F473-4B01-A067-AD01A3341FEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C9B1A9C-F473-4B01-A067-AD01A3341FEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C9B1A9C-F473-4B01-A067-AD01A3341FEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C9B1A9C-F473-4B01-A067-AD01A3341FEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

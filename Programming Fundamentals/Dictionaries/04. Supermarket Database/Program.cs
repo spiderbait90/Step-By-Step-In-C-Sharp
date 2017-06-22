@@ -25,7 +25,7 @@ namespace _04.Supermarket_Database
 
                 if (!quantityD.ContainsKey(product))
                 {
-                    quantityD[product] = quantity*2;
+                    quantityD[product] = quantity;
                     priceD[product] = price;
                 }
                 else
