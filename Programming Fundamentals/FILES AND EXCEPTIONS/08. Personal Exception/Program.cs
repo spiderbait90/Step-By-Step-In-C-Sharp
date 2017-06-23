@@ -2,17 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-
-namespace Dictionary
+namespace _08.Personal_Exception
 {
     class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
-          
-        }       
+        }
     }
 }

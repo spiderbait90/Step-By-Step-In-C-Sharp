@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.13
+VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Odd Lines", "1. Odd Lines\1. Odd Lines.csproj", "{1C5C5E78-F0EC-4BB1-AE6C-FE9916796E22}"
 EndProject
@@ -12,6 +12,18 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Merge Files", "4. Merge Files\4. Merge Files.csproj", "{7100DC55-D3CA-405F-81F4-57F4D284F5AA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Folder Size", "5. Folder Size\5. Folder Size.csproj", "{DC691F61-FAE7-422A-92DE-E550763D2D98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.  Most Frequent Number", "1.  Most Frequent Number\1.  Most Frequent Number.csproj", "{3E3C49BF-C4DB-4B11-B7E8-145F4202B8A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Index of Letters", "2. Index of Letters\2. Index of Letters.csproj", "{81867089-4D04-4F1A-960D-EDBCAE8060A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Equal Sums", "3. Equal Sums\3. Equal Sums.csproj", "{1E73DE1B-03A9-400D-A932-A94A64E8E7D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Max Sequence of Equal", "4. Max Sequence of Equal\4. Max Sequence of Equal.csproj", "{138C31BE-BBBC-4CD7-8EC7-8F41BB5EEA9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice", "Practice\Practice.csproj", "{92A21D01-092D-4AFB-B9FC-72859FBAE45B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Play Catch", "07. Play Catch\07. Play Catch.csproj", "{4CDC9AAF-7342-48B5-A80C-735AE28AB3AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +51,30 @@ Global
 		{DC691F61-FAE7-422A-92DE-E550763D2D98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC691F61-FAE7-422A-92DE-E550763D2D98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC691F61-FAE7-422A-92DE-E550763D2D98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E3C49BF-C4DB-4B11-B7E8-145F4202B8A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E3C49BF-C4DB-4B11-B7E8-145F4202B8A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E3C49BF-C4DB-4B11-B7E8-145F4202B8A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E3C49BF-C4DB-4B11-B7E8-145F4202B8A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81867089-4D04-4F1A-960D-EDBCAE8060A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81867089-4D04-4F1A-960D-EDBCAE8060A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81867089-4D04-4F1A-960D-EDBCAE8060A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81867089-4D04-4F1A-960D-EDBCAE8060A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E73DE1B-03A9-400D-A932-A94A64E8E7D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E73DE1B-03A9-400D-A932-A94A64E8E7D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E73DE1B-03A9-400D-A932-A94A64E8E7D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E73DE1B-03A9-400D-A932-A94A64E8E7D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{138C31BE-BBBC-4CD7-8EC7-8F41BB5EEA9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{138C31BE-BBBC-4CD7-8EC7-8F41BB5EEA9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{138C31BE-BBBC-4CD7-8EC7-8F41BB5EEA9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{138C31BE-BBBC-4CD7-8EC7-8F41BB5EEA9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92A21D01-092D-4AFB-B9FC-72859FBAE45B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92A21D01-092D-4AFB-B9FC-72859FBAE45B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92A21D01-092D-4AFB-B9FC-72859FBAE45B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92A21D01-092D-4AFB-B9FC-72859FBAE45B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CDC9AAF-7342-48B5-A80C-735AE28AB3AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CDC9AAF-7342-48B5-A80C-735AE28AB3AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CDC9AAF-7342-48B5-A80C-735AE28AB3AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CDC9AAF-7342-48B5-A80C-735AE28AB3AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

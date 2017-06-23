@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.13
+VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Day of Week", "01. Day of Week\01. Day of Week.csproj", "{8BA0950D-AB56-4B82-9915-5A6851E22B79}"
 EndProject
@@ -46,6 +46,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9. Teamwork projects", "9. Teamwork projects\9. Teamwork projects.csproj", "{0AF94DCE-C00E-41F2-B160-BA2047D160C4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Student Groups", "10. Student Groups\10. Student Groups.csproj", "{ACFFFF3A-D3FA-4CB8-BC74-067662BAA925}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Order by Age", "01. Order by Age\01. Order by Age.csproj", "{A60AE749-3EE9-4AC8-A19C-4A7E3BAB6F6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Vehicle Catalogue", "02. Vehicle Catalogue\02. Vehicle Catalogue.csproj", "{2B192BD4-9346-40BD-8921-19335A608A0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Jarvis", "03. Jarvis\03. Jarvis.csproj", "{852ADD61-F792-4A6E-965A-C509DA4AE82D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +147,18 @@ Global
 		{ACFFFF3A-D3FA-4CB8-BC74-067662BAA925}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACFFFF3A-D3FA-4CB8-BC74-067662BAA925}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACFFFF3A-D3FA-4CB8-BC74-067662BAA925}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A60AE749-3EE9-4AC8-A19C-4A7E3BAB6F6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A60AE749-3EE9-4AC8-A19C-4A7E3BAB6F6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A60AE749-3EE9-4AC8-A19C-4A7E3BAB6F6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A60AE749-3EE9-4AC8-A19C-4A7E3BAB6F6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B192BD4-9346-40BD-8921-19335A608A0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B192BD4-9346-40BD-8921-19335A608A0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B192BD4-9346-40BD-8921-19335A608A0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B192BD4-9346-40BD-8921-19335A608A0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{852ADD61-F792-4A6E-965A-C509DA4AE82D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{852ADD61-F792-4A6E-965A-C509DA4AE82D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{852ADD61-F792-4A6E-965A-C509DA4AE82D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{852ADD61-F792-4A6E-965A-C509DA4AE82D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
