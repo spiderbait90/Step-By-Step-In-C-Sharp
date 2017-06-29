@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice", "Practice\Practi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Play Catch", "07. Play Catch\07. Play Catch.csproj", "{4CDC9AAF-7342-48B5-A80C-735AE28AB3AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Personal Exception", "08. Personal Exception\08. Personal Exception.csproj", "{835023FD-FD5E-4C28-9612-848C3366537E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{4CDC9AAF-7342-48B5-A80C-735AE28AB3AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CDC9AAF-7342-48B5-A80C-735AE28AB3AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CDC9AAF-7342-48B5-A80C-735AE28AB3AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{835023FD-FD5E-4C28-9612-848C3366537E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{835023FD-FD5E-4C28-9612-848C3366537E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{835023FD-FD5E-4C28-9612-848C3366537E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{835023FD-FD5E-4C28-9612-848C3366537E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

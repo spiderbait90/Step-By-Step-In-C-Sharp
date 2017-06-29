@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("08. Personal Exception")]
+[assembly: AssemblyTitle("03. Portal")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("08. Personal Exception")]
+[assembly: AssemblyProduct("03. Portal")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("835023fd-fd5e-4c28-9612-848c3366537e")]
+[assembly: Guid("0a3b573e-af33-4992-a34e-8b6a7dc6c84e")]
 
 // Version information for an assembly consists of the following four values:
 //

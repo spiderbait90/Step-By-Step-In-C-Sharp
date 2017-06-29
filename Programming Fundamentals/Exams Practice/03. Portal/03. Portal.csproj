@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{835023FD-FD5E-4C28-9612-848C3366537E}</ProjectGuid>
+    <ProjectGuid>{0A3B573E-AF33-4992-A34E-8B6A7DC6C84E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_08.Personal_Exception</RootNamespace>
-    <AssemblyName>_08.Personal_Exception</AssemblyName>
+    <RootNamespace>_03.Portal</RootNamespace>
+    <AssemblyName>_03.Portal</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PersonalException.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

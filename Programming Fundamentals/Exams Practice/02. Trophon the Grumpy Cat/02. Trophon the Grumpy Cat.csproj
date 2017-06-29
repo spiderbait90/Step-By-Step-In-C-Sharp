@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{835023FD-FD5E-4C28-9612-848C3366537E}</ProjectGuid>
+    <ProjectGuid>{0CE4587E-720D-47A4-A7EF-412692EC4B4F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_08.Personal_Exception</RootNamespace>
-    <AssemblyName>_08.Personal_Exception</AssemblyName>
+    <RootNamespace>_02.Trophon_the_Grumpy_Cat</RootNamespace>
+    <AssemblyName>_02.Trophon_the_Grumpy_Cat</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PersonalException.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

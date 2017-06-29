@@ -36,7 +36,7 @@ public class Legs
 {
     public int EnergyConsumption { get; set; }
     public int Strenght { get; set; }
-    public int Speed { get; set; }   
+    public int Speed { get; set; }    
 }
 
 
