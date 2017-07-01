@@ -8,12 +8,13 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace Practice
-{    
+{
     public class Program
     {
         public static void Main(string[] args)
         {
-                        
+            
         }
+        
     }
 }

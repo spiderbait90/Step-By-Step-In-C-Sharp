@@ -10,7 +10,6 @@ namespace Practicee
 {
     public class Program
     {
-
         public static void Main(string[] args)
         {
             var input = Console.ReadLine();
