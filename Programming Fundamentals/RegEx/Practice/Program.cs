@@ -7,14 +7,13 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace Practice
+namespace _Practice
 {
-    public class Program
+    class _05_KeyReplacer
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
             
         }
-        
     }
 }
