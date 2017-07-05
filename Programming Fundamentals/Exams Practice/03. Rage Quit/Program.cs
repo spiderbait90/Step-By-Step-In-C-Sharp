@@ -11,37 +11,17 @@ namespace _03.Rage_Quit
     {
         static void Main(string[] args)
         {
-            var input = Console.ReadLine().ToLower();
-            var extractDigits = @"\d+";
-            var extractElements = @"[^\d]+";
-            var uniqueElements = new List<char>();
-
-            var digits = Regex.Matches(input, extractDigits);           
-            var elements = Regex.Matches(input, extractElements);
-            var listDigits = digits.Cast<Match>()
-                .Select(x => x.Value).ToList()
-                .Select(int.Parse).ToList();
-            var result = new List<string>();
-            var count = 0;
-
-            foreach (Match element in elements)
+            var input = Console.ReadLine();
+            var matches = Regex.Matches(input, @"([^\d]+)(\d+)");
+            var str = new StringBuilder();
+            foreach (Match match in matches)
             {
-                string str = element.ToString();
-                for (int i = 0; i < listDigits[count]; i++)
-                {                    
-                    result.Add(str.ToUpper());
-                }                
-                count++;
+                var symbols = match.Groups[1].Value.ToUpper();
+                var times = int.Parse(match.Groups[2].Value);
+                str.Append(string.Join("", Enumerable.Repeat(symbols, times)));
             }
-            foreach (var word in result)
-            {
-                foreach (var letter in word)
-                {
-                    uniqueElements.Add(letter);
-                }
-            }
-            Console.WriteLine($"Unique symbols used: {uniqueElements.Distinct().Count()}");
-            Console.WriteLine(string.Join("",result));
+            Console.WriteLine($"Unique symbols used: {str.ToString().Distinct().Count()}");
+            Console.WriteLine(str.ToString());
         }
     }
 }
