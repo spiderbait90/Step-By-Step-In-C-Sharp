@@ -1,0 +1,40 @@
+﻿@using GamesStore.Common.Admin.BindingModels
+@using GamesStore.Models
+@model GamesStore.Common.Admin.BindingModels.UserInfoBindingModel
+@{
+    ViewData["Title"] = "Add";
+}
+
+<h2 class="text-center">Order</h2>
+
+<form asp-area="" asp-controller="Cart" asp-action="Order" method="post">
+
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="form-group">
+        <label asp-for="FullName"></label>
+        <input asp-for="FullName" class="form-control" placeholder="Full Name">
+        <span class="text-danger" asp-validation-for="FullName"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="PhoneNumber"></label>
+        <input asp-for="PhoneNumber" class="form-control" placeholder="PhoneNumber">
+        <span class="text-danger" asp-validation-for="PhoneNumber"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Addres"></label>
+        <input asp-for="Addres" class="form-control" placeholder="Address">
+        <span class="text-danger" asp-validation-for="Addres"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">Order</button>
+    <a class="btn btn-primary" asp-controller="Home" asp-action="Index">Back to List</a>
+
+</form>
+
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+

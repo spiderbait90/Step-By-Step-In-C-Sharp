@@ -1,0 +1,64 @@
+﻿@using GamesStore.Common.Admin.ViewModels
+@using GamesStore.Models
+@model ICollection<CartItem>
+@{
+    ViewData["Title"] = "All Games";
+    var rowCounter = 1;
+}
+@if (TempData.Any())
+{
+    <div class="alert alert-danger alert-dismissible fade in text-center">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <strong>@TempData.First().Value</strong>
+    </div>
+}
+@{
+    if (Model.Count == 0)
+    {
+        <h1 class="text-center text-danger">No Games in Cart</h1>
+    }
+    else
+    {
+        <h1 class="text-center">All Games in Cart</h1>
+    }
+}
+<hr />
+<p class="text-center">@( $"Price Sum : {Model.Sum(x => x.Product.Price * x.Quantity):C0}")</p>
+<hr />
+
+@if (Model.Any())
+{
+    <a class="btn btn-success" asp-area="" asp-controller="Cart" asp-action="Order">Order</a>
+}
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Cover</th>
+            <th scope="col">Name</th>
+            <th scope="col">Price</th>
+            <th scope="col">Category</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var game in Model)
+        {
+            <tr>
+                <th scope="row">@(rowCounter++)</th>
+                <td><img src="@game.Product.ImgUrl" width="100" height="100" /></td>
+                <td>
+                    <a asp-area="" asp-controller="Games" asp-action="Details" asp-route-id="@game.Product.Id">@game.Product.Name</a>
+                </td>
+                <td>@($"{game.Product.Price:C0}")</td>
+                <td>@game.Product.Category.Name</td>
+                <td>@game.Quantity</td>
+                <td>
+                    <a class="btn btn-danger" asp-area="" asp-controller="Cart" asp-action="Delete" asp-route-id="@game.Product.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

@@ -1,0 +1,70 @@
+﻿@page
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model GamesStore.Web.Pages.PendingOrdersModel
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "All Orders";
+    var rowCounter = 1;
+}
+
+@{
+    if (Model.PendingOrders.Count == 0)
+    {
+        <h1 class="text-center text-danger">No Orders</h1>
+    }
+    else
+    {
+        <h1 class="text-center">All Orders</h1>
+    }
+}
+
+<hr />
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Full Name</th>
+            <th scope="col">Address</th>
+            <th scope="col">Items</th>
+            <th scope="col">Total Price</th>
+            <th scope="col">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model.PendingOrders)
+        {
+            <tr>
+                <th scope="row">@(rowCounter++)</th>
+                <td>@order.FullName</td>
+                <td>@order.Address</td>
+                <td>
+                    <ul>
+                        @foreach (var i in order.Items)
+                        {
+                            <li>
+                                @i.Product.Name
+                                <p>Quantity: @i.Quantity</p>
+                            </li>
+                        }
+                    </ul>
+                </td>
+                <td>@order.Items.Sum(x => x.Product.Price * x.Quantity)</td>
+                <td>
+                    @{
+                        if (order.IsConfirmed)
+                        {
+                            <strong class="text-success">Is Confirmed</strong>
+                        }
+                        else
+                        {
+                            <a class="btn btn-danger" asp-controller="PendingOrders" asp-action="Confirm" asp-route-id="@order.Id">Confirm</a>
+                        }
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+

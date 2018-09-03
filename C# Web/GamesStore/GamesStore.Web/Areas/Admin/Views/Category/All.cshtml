@@ -1,0 +1,42 @@
+﻿@model IEnumerable<GamesStore.Models.Category>
+<br />
+@if (TempData.Any())
+{
+    <div class="alert alert-danger alert-dismissible fade in text-center">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <strong>@TempData.First().Value</strong>
+    </div>
+}
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                Actions
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-name="@item.Name">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p>
+    <a class="btn btn-success" asp-controller="Category" asp-action="Add">Create New</a>
+    <a class="btn btn-primary" asp-controller="Home" asp-action="Index">Back to List</a>
+</p>
+
+
